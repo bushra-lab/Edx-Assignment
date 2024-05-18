@@ -1,10 +1,10 @@
-
+#Kindly ignor this file i am still learning git push and pull additionally how to delete files in directory
 file_path = "election_data.csv"
 def percentage_votes(candidate_votes,total_votes):
     percentage_votes={}
     for candidate, votes in candidate_votes.items():
         percentage=(votes/total_votes)*100
-        percentage_votes[candidate] = (votes,percentage)
+        percentage_votes[candidate] = (votes, percentage)
     return percentage_votes
 
 def read_csv_count_votes(file_path):
