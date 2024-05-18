@@ -1,4 +1,4 @@
-
+# Kindly ignore this file, all code is in test.py
 file_path = "election_data.csv"
 def percentage_votes(candidate_votes,total_votes):
     percentage_votes={}
